@@ -23,22 +23,59 @@ code {
   display: flex;
   flex-direction: column;
   background-color: goldenrod;
+  align-items: center;
 }
 
 .result-container > li > img{
-  max-width: 500px;
+  width: 500px;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
 }
 
+h3 {
+  font-size: 30px;
+}
 
-header > a {
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
   background-color: goldenrod;
-  color: white;
+}
+
+.header-container {
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.rating {
+  background-color: #ba3f36;
+  width: 50px;
+  text-align: center;
+  color: white;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  font-size: 20px;
 }
 
 /* fonts import */

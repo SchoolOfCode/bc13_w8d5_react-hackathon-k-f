@@ -9,7 +9,7 @@ export default function List({results}) {
               <img src={result.img} alt="idk"/>
               <p>{result.country}</p>
               <p>${result.price}</p>
-              <p>{result.rate}/5</p>
+              <p className="rating">{result.rate}/5</p>
             </li>
       )}
   </ul>)
