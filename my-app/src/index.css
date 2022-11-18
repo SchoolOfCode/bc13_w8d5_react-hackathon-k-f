@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Kalam', cursive;
 }
 
 code {
@@ -21,10 +22,26 @@ code {
 .result-container > li {
   display: flex;
   flex-direction: column;
+  background-color: goldenrod;
 }
 
 .result-container > li > img{
   max-width: 500px;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+}
 
+
+header > a {
+  background-color: goldenrod;
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+
+/* fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
