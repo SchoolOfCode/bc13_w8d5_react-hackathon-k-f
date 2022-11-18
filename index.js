@@ -6,10 +6,4 @@ const options = {
   }
 }
 
-async function myFunction () {
-  const response = await fetch('https://cooking-recipe2.p.rapidapi.com/getbycat/Indian%20Desserts', options)
-  const data = await response.json()
-  console.log(data)
-}
-
-myFunction()
+/*myFunction()*/
